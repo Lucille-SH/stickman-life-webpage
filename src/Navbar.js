@@ -28,10 +28,10 @@ export default function Navbar() {
                 Home
               </a>
               <a className="nav-link" href="#">
-                Features
+                Comics
               </a>
               <a className="nav-link" href="#">
-                Pricing
+                About Us
               </a>
             </div>
           </div>

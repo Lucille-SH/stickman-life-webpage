@@ -32,8 +32,29 @@
   padding: 15px 200px;
 }
 
+.HomePage {
+  background-color: #f96d00;
+}
+
+.Footer {
+  background-color: white;
+  padding: 30px 50px;
+  font-size: 13px;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .homepage-image {
-    padding: 15px 60px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .HomePage h1 {
+    font-size: 50px;
+  }
+
+  .HomePage h2 {
+    font-size: 20px;
   }
 }
